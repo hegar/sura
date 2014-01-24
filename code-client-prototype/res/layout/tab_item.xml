@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabItem"
+    style="@style/TabItemBkgStyle"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="5dp" >
+
+     <ImageView
+         android:id="@+id/tabItemIcon"
+         style="@style/TabItemBkgStyle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+
+     <TextView
+         android:id="@+id/tabItemName"
+         style="@style/TabItemNameStyle" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+
+</LinearLayout>
